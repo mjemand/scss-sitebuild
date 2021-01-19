@@ -1,0 +1,143 @@
+*{box-sizing: border-box;}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+.container-fluid {
+        background-image: url("/img/bg-pattern.png"), linear-gradient(to right, rgb(218,36,49), rgba(122,67,151));
+}
+
+.navbar-brand {
+    color: #ECC653;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand:hover {
+    color: #ffffff
+}
+
+.nav-link {
+    color: #E1C1D0;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.nav-link:hover {
+    color: #ffffff
+}
+
+.navbar-toggler {
+    color: #000;
+    background-color: white;
+    line-height: 2rem;
+    text-align: start;
+    padding-bottom: 1rem;
+}
+
+.navbar-collapse {
+    color: #000;
+}
+
+ul.navbar-nav {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
+.navbar-toggler-icon {
+    color: #000;
+    min-width: 50px;
+}
+
+.navbar-nav {
+    color: #000;
+}
+
+.newAge {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #F6FCFF;
+}
+
+.btn-outline-primary {
+    color: #F6FCFF;
+    border-color: #F6FCFF;
+    border-radius: 99rem;
+    line-height: 2rem;
+    min-width: 20rem;
+}
+
+.btn-outline-primary:hover {
+    background-color: #FDCC52;
+    transition-duration: 300ms;
+}
+
+.phone {
+    position: relative;
+    max-width: 300px;;
+}
+
+.screen {
+    position: absolute;
+    top: 57px;
+    left: 30px;
+    max-width: 270px;
+}
+
+.py-5 {
+    position: relative;
+}
+
+.jumbotron {
+    background: #FDCB4D;
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+.unlimited {
+    color: #000;
+}
+
+.checkOut {
+    color: #5E6066;
+}
+
+i[class^="icon"] {
+    font-size: 4rem;
+    color: #A73260;
+}
+
+.picture {
+    background-image: url("/img/bg-cta.jpg");
+    min-height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(80%);
+  }
+
+.start {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+    color: #F6FCFF;
+}
+
+.heart {
+      color: #d82c2c;
+      font-size: 5rem;
+  }
+
+.modal {
+      color: #000;
+  }
+
+footer {
+    color: #7a735f;
+}
+
+footer nav a {
+    color: #7a735f;
+}
+
+footer nav a:hover {
+    color: #fdcc52;
+}
